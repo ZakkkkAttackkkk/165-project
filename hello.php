@@ -10,7 +10,7 @@ hello world
     $queries = array("show databases;","use classicmodels;","show tables;");
     $mysqli = new mysqli("localhost","zbjimenez","Kikoeteirunoyo");
     echo $mysqli->host_info . "<br>";
-    $q = $mysqli->query("source C:\\Users\\Apol.auj-PC\\Desktop\\Zak\\165\\classicmodels\\birt-database-windows\\create_classicmodels.sql;source C:\\Users\\Apol.auj-PC\\Desktop\\Zak\\165\\classicmodels\\birt-database-windows\\create_classicmodels.sql;");
+    $q = $mysqli->query("source classicmodels\\birt-database-windows\\create_classicmodels.sql;source classicmodels\\birt-database-windows\\create_classicmodels.sql;");
     $mysqli->query($q);
     foreach ($queries as $q){
         echo "<textarea style=\"height:40em;width:30em;\">";
