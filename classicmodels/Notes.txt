@@ -1,3 +1,0 @@
-use the option --local-infile to use the SOURCE keyword
-Example:
-mysql -u root -p --local-infile
