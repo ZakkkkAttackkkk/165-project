@@ -1,0 +1,7 @@
+var messages = {};
+messages.lang = {
+	prev: "previous",
+	next: "next",
+	close_button: "close",
+	searchbox: 'enter search text...',
+}

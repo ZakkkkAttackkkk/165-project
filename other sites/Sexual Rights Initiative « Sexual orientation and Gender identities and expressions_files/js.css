@@ -1,0 +1,18 @@
+
+.js_hide { display:none }
+
+.js_unhide { display:block }
+
+#content .navigation .nav-fader {
+	background-color:#fff;
+	opacity:0.5;
+	filter:alpha(opacity = 50);
+	-ms-filter:"alpha(opacity=50)";
+}
+
+#universal-periodic-review-wrapper {
+	width:102%;
+	margin-left:-1%;
+}
+
+#universal-periodic-review { overflow:hidden; }
